@@ -4,10 +4,10 @@ import { FaPlaneDeparture } from 'react-icons/fa'; // Flight icon from react-ico
 
 const Header = () => {
   return (
-    <Navbar expand="lg" bg="light" className="shadow-sm sticky-top">
+    <Navbar expand="lg" bg="primary" className="shadow-sm ">
       <Container fluid>
         {/* Brand Logo with Flight Icon */}
-        <Navbar.Brand href="/" className="d-flex align-items-center gap-2 text-primary fw-bold fs-4">
+        <Navbar.Brand href="/" className="d-flex align-items-center gap-2 text-light fw-bold fs-4">
           <FaPlaneDeparture size={28} />
           BookSultan
         </Navbar.Brand>
@@ -26,7 +26,7 @@ const Header = () => {
               Register / Login
             </Nav.Link>
             <Nav.Link href="#language" className="text-dark fw-semibold nav-hover">
-              🌐 العربية
+              🌐
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

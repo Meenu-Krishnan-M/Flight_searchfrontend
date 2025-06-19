@@ -59,8 +59,8 @@ export default function FlightForm({ onAdd }) {
   };
 
   return (
-    <Form onSubmit={handleSubmit} className="p-4 border rounded bg-light">
-      <h4 className="mb-3">Add New Flight</h4>
+    <Form onSubmit={handleSubmit} className="p-2 border rounded bg-light">
+      <h4 className="mb-3 text-info">Add New Flight</h4>
       {[
         'airline',
         'number',
